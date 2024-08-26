@@ -1,7 +1,7 @@
 # LandingPage 
 I've completed task-3 project of "Landing page" during internship at TopperWorld. <br /><br>
 Frontend : HTML, CSS, Javascript, Bootstrap <br>
-**Link :** https://orxnpgxfkuxth4njhzo0cq.on.drv.tw/www.ashuhost.com/myweb.html <br><br>
+**Link :** https://httpsashu404.github.io/LandingPage/ <br><br>
 **Image : 1**<br><br>
     <img width="960" alt="img" src="https://github.com/httpsashu404/Calculator/assets/159816902/1a590279-009d-47bf-9249-224f23598a9c">
 <br><br>
