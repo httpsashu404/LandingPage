@@ -13,235 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <!-- This link same work as upper link but when internet is not connted this device -->
-    <base href=" ">
+    <!-- This link same work as upper link but when internet is not connted this device -->    
+	<link rel="stylesheet" href="style.css">
     <title>AR Infotech</title>
-    <style>
-		*{
-			padding: 0px 3px 0px 3px;
-			border: none;
-		}
-		body{
-			background: pink;
-		}
-.carousel img{
-    height: 100vh;
-}
-.navbar{
-	background: #34495e;
-}
-.navbar-brand{
-    color: white;
-    text-shadow: 1px 1px 0px black;
-}
-.nav-link:hover{
-    color: white;
-    border-bottom: 2px solid white;
-    /* background-color: black; */
-}
-.footer-link{
-    height: 200px;
-}
-.footer{
-    height: 50px;
-    line-height: 50px;
-    letter-spacing: .5px;
-}
-
-a:hover{
-	text-decoration: none;
-}
-
-.section{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.section h2.section-head{
-	color: #000;
-	text-align: center;
-	margin-bottom: 40px;
-}
-
-.section h2.section-head:after{
-	background: #e74c3c;
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	margin: 20px auto;
-}
-.service-box{
-	text-align: center;
-}
-
-.service-box i.fa{
-	color: #e74c3c;
-	font-size: 70px;
-	margin-bottom: 15px;
-}
-
-#testimonials{
-	color: #fff;
-	background:#34495e;
-	padding: 50px 0;
-	position: relative;
-}
-
-#testimonials:before{
-	content: "";
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.testimonial img{
-    width: 80px;
-    height: 80px;
-	border-radius: 50%;
-	margin-bottom: 5px;
-    border: 1px solid white;
-}
-
-.news-post img{
-	width: 280px;
-	height: 150px;
-	margin-bottom: 10px;
-}
-
-.news-post h3{
-	font-size: 1.35rem;
-}
-
-.news-post h3 a{
-	color: #e74c3c;
-}
-
-.post-date{
-	font-size: 13px;
-	margin-bottom: 2px;
-}
-
-.post-date:before{
-	content: "\f073";
-	font-family: FontAwesome;
-	padding-right: 5px;
-}
-
-a.readmore{
-	font-size: 14px;
-	color: #e74c3c;
-}
-
-a.readmore:after{
-	content: "\f101";
-	font-family: FontAwesome;
-	padding-left: 5px;
-}
-
-#footer-sidebar{
-	color: #fff;
-	background: #34495e;
-	padding: 20px 0;
-}
-
-.footer-widget h4:after{
-	content: "";
-	background: #fff;
-	display: block;
-	width: 50px;
-	height: 2px;
-	margin: 5px 0;
-}
-
-.footer-widget a{
-	color: #fff;
-}
-
-.latest-news{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.latest-news li{
-	margin-bottom: 3px;
-}
-
-.latest-news li:before{
-	content: "\f101";
-	font-family: FontAwesome;
-	padding-right: 5px;
-}
-
-#footer{
-	color: #fff;
-	background: #2c3e50;
-	padding: 10px 0;
-}
-
-#social-icons{
-	list-style: none;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-}
-
-#social-icons li{
-	display: inline-block;
-	padding-left: 5px;
-}
-#social-icons li a{
-	color: #fff;
-	font-size: 23px;
-}
-@media (max-width: 992px){
-	.news-post{
-		margin-bottom: 30px;
-	}
-
-}
-
-@media (max-width: 768px){
-	#logo{
-		text-align: center;
-		margin: 10px 0;
-	}
-	#menu{
-		text-align: center;
-	}
-	.banner-title{
-		padding-top: 0;
-	}
-	.banner-title h1{
-		font-size: 1.7rem;
-	}
-	.section{
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-
-	.testimonial{
-		text-align: center;
-		margin-bottom: 30px;
-	}
-	.service-box{
-		margin-bottom: 30px;
-	}
-	
-	.footer-widget{
-		margin-bottom: 20px;
-	}
-
-	#footer{
-		text-align: center;
-	}
-	#social-icons{
-		margin-top: 10px;
-	}
-}
-    </style>
 </head>
 <body>     
         <div class="container-fluid">
@@ -258,11 +32,10 @@ a.readmore:after{
                             <li class="nav-item dropdown">
                                 <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><b>Projects</b></a>
                                 <div class="dropdown-menu shadow position-absolute">
-							 <a href="Certon.html" class="dropdown-item"><b>Certon Site</b></a>
-                                    <a href="../BOOTSTRAP/Bootstrap.html" class="dropdown-item"><b>Bootstrap Tutorials</b></a>
+                                    <a href="https://httpsashu404.github.io/Bootstrap-Tutorials/" class="dropdown-item"><b>Bootstrap Tutorials</b></a>
                                     <a href="Primarjan.html" class="dropdown-item"><b>Primarjan Track</b></a>
-                                    <a href="../Date_of_Birth.html" class="dropdown-item"><b>DOB Application</b></a>
-							 <a href="Sarkari.html" class="dropdown-item"><b>Sarkari Result</b></a>
+                                    <a href="https://httpsashu404.github.io/DOB-Calculator/" class="dropdown-item"><b>DOB Application</b></a>
+							 		<a href="https://httpsashu404.github.io/Sarkari-result/" class="dropdown-item"><b>Sarkari Result</b></a>
                                 </div>
                             </li>
                             <li class="nav-item"><a href="#abouts" class="nav-link"><b>Abouts</b></a></li>
@@ -284,7 +57,7 @@ a.readmore:after{
 			<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 			<div class="modal-body">
-					<form action="http://localhost/projects/login/match.php" class="form p-2" autocomplete="off" method="post">
+					<form action="https://httpsashu404.netlify.app/" class="form p-2" autocomplete="off" method="post">
 						<legend class="text-center">
 							<h4><b><u>Admin-login</u></b></h4>
 						</legend>
@@ -307,7 +80,7 @@ a.readmore:after{
 			 <div class="modal-dialog modal-dialog-centered">
 			 <div class="modal-content">
 			 <div class="modal-body">
-				  <form action="http://localhost/projects/login/match.php" class="form p-2" autocomplete="off" method="post">
+				  <form action="https://httpsashu404.netlify.app/" class="form p-2" autocomplete="off" method="post">
 						<legend class="text-center">
 							 <h4><b><u>User-login</u></b></h4>
 						</legend>
@@ -331,7 +104,7 @@ a.readmore:after{
 			<div class="modal-dialog modal-dialog-centered">
 				 <div class="modal-content">
 				 <div class="modal-body">
-					  <form action="http://localhost/projects/login/changepass.php" class="form p-2" autocomplete="off" method="post">
+					  <form action="https://httpsashu404.netlify.app/" class="form p-2" autocomplete="off" method="post">
 							<legend class="text-center">
 								 <h4><b><u>Forget-password</u></b></h4>
 							</legend>
@@ -355,7 +128,7 @@ a.readmore:after{
 		<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 		<div class="modal-body">
-		<form action="http://localhost/projects/login/save.php" class="form p-3" autocomplete="off" method="post">
+		<form action="https://httpsashu404.netlify.app/" class="form p-3" autocomplete="off" method="post">
 		<legend class="text-center">
 			 <h4><b><u>User-register</u></b></h4>
 		</legend>
@@ -401,7 +174,7 @@ a.readmore:after{
 		<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 		<div class="modal-body">
-			 <form action="http://localhost/projects/login/logout.php" class="form p-2" autocomplete="off" method="post">
+			 <form action="https://httpsashu404.netlify.app/" class="form p-2" autocomplete="off" method="post">
 				  <legend class="text-center">
 						<h4><b><u>logout</u></b></h4>
 				  </legend>
@@ -433,7 +206,7 @@ a.readmore:after{
                     <div class="carousel-item">
                         <img src="https://www.qualitydevs.com/wp-content/uploads/2017/12/desarrollador-1288x724.jpg" class="d-block" style="width: 100%; height: 50vh;" alt=""></div>
                     <div class="carousel-item">
-                        <img src="https://techbeacon.com/sites/default/files/styles/social/public/field/image/twenty20_2a92441f-683f-4f75-8b75-e80a0a4c2bb5.jpg?itok=POmn0Ew-" class="d-block" style="width: 100%; height: 50vh;" alt=""></div>
+                        <img src="https://i.pinimg.com/originals/83/be/32/83be325e2d434d410339a95622877f70.jpg" class="d-block" style="width: 100%; height: 50vh;" alt=""></div>
                     <div class="carousel-item">
                         <img src="https://woz-u.com/wp-content/uploads/2020/02/What-Do-Software-Engineers-Do-WOZ-1-min.png" class="d-block" style="width: 100%; height: 50vh;" alt=""></div>
                 </div>
@@ -542,7 +315,7 @@ a.readmore:after{
 			</div>
 			<div class="col-md-6  col-lg-3">
 				<div class="news-post">
-					<img src="https://clockwise.software/img/blog/software-development-team-structure/header-background.jpg" alt="Image.....">
+					<img src="https://thumbs.dreamstime.com/b/web-banner-two-office-workers-young-woman-man-employees-work-there-furniture-brown-color-windows-93960264.jpg" alt="Image.....">
 					<h3><a href="">News Heading Here</a></h3>
 					<div class="post-date">April 10, 2024</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
@@ -551,7 +324,7 @@ a.readmore:after{
 			</div>
 			<div class="col-md-6 col-lg-3">
 				<div class="news-post">
-					<img src="https://www.turing.com/blog/wp-content/uploads/2022/01/software-development-team-structure-scaled.jpg" alt="Image.....">
+					<img src="https://thumbs.dreamstime.com/b/coworkers-office-business-coworkers-meeting-office-cartoons-vector-illustration-graphic-design-125529651.jpg" alt="Image.....">
 					<h3><a href="">News Heading Here</a></h3>
 					<div class="post-date">April 10, 2024</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, magni!</p>
@@ -588,16 +361,14 @@ a.readmore:after{
 						<h4>AR-Infotech pvt. ltd.</h4>
 						<address>
 							<b>Address : </b><br>
-							Bahlolpur, sec-63, Noida, 201301<br>
+							Sasaram, Rohtas, 802211<br>
 							<b>Mo :</b><a class="text-decoration-none" href="tel:7763992074">7763992074</a>,
 							<a class="text-decoration-none" href="tel:8271973256">8271973256</a><br>
 							<b>email :</b><a class="text-decoration-none" href="#">arinfotech404@gmail.com</a>						
 						</address>
 					<ul id="social-icons" class="float-md-right">
-						<li><a href="#" class="fa fa-facebook-square text-decoration-none"></a></li>
-						<li><a href="#" class="fa fa-twitter-square text-decoration-none"></a></li>
-						<li><a href="#" class="fa fa-linkedin-square text-decoration-none"></a></li>
-						<li><a href="#" class="fa fa-instagram-square text-decoration-none"></a></li>
+						<li><a href="linkedin.com/in/ashutosh-kumar-0b03472ba" class="fa fa-linkedin-square text-decoration-none"></a></li>
+						<li><a href="github.com/httpsashu404 " class="fa fa-github-square text-decoration-none"></a></li>
 					</ul>
 					</div>
 				</div>
@@ -608,7 +379,7 @@ a.readmore:after{
 	<div id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col"><b>Reserved&reg;softwaredeveloper.2024</b></div>
+				<div class="col"><b>Reserved&reg;httpsashu404.2024</b></div>
 			</div>
 		</div>
     </div>
